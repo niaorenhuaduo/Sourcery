@@ -3,9 +3,15 @@
 ---
 ## Master
 
+### New Features
+- Sourcery will now use parallel parsing, expect more than 2x as fast execution 🚤 .
 - Added support for `ImplicitlyUnwrappedOptional`
 - `actualTypeName` property of `Method.Parameter`, `Variable`, `Enum.Case.AssociatedValue`, `TupleType.Element` now returns `typeName` if type is not a type alias
 - `Enum` now contains type information for its raw value type. `rawType` now return `Type` object, `rawTypeName` returns its `TypeName`
+
+### Bug Fixes
+
+### Internal Changes
 
 ## 0.5.1
 
